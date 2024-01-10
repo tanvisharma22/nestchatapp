@@ -1,0 +1,52 @@
+body{
+    background-color: #f0f0f0;
+}
+
+.page-wrapper {
+  padding: 0 0;
+  background-color: #f0f0f0;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 96%;
+  box-sizing: border-box;
+}
+
+.input-area-wrapper {
+  border-radius: 20px;
+  position: fixed;
+  bottom: 2%;
+  width: 80%;
+  height: 45px;
+  background-color: white;
+  padding: 0.5%;
+  box-sizing: border-box;
+  left: 10%;
+  right: 10%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1200px) {
+  .input-area-wrapper {
+    width: 90%;
+    left: 5%;
+    right: 5%;
+  }
+}
+
+.input-area {
+  margin: 0 auto;
+  width: 97%;
+  height: 100%;
+  position: relative;
+  background-color: white;
+}
+
+@media (max-width: 1200px) {
+  .input-area {
+    margin: 0 auto;
+    width: 95%;
+    height: 70%;
+    position: relative;
+    top: 15%;
+  }
+}
